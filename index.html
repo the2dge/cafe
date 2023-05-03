@@ -303,4 +303,15 @@ behavior
       });
     });
   </script>
+  <script type="text/javascript">document.addEventListener('DOMContentLoaded', function () {
+  const menuItems = document.querySelectorAll('.menu-items li a');
+  const checkbox = document.querySelector('.navbar-container input[type="checkbox"]');
+
+  menuItems.forEach(function (menuItem) {
+    menuItem.addEventListener('click', function () {
+      checkbox.checked = false;
+    });
+  });
+});
+</script>
 </html>

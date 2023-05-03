@@ -409,7 +409,26 @@ body {
 }
 
 /* ........ Contact Us........... */
+.line-container{
+  position: relative;
+  display: inline-block;
+}
+.line-container img {
+  width: 45px;
+  height: 45px;
+}
+.address-box{
+  display: flex;
+}
 
+#social-media{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#social-media h3{
+  margin-left: 5px;
+}
 #contact {
   padding: 5rem 0;
   background: rgb(226, 226, 226);
@@ -474,15 +493,26 @@ body {
   font-size: 1.3rem;
 }
 
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer img{
+  width: 60px;
+  height: 60px;
+}
 #footer h2 {
   text-align: center;
   font-size: 1.8rem;
-  padding: 2.6rem;
+  padding: 0.6rem;
   font-weight: 500;
   color: #fff;
   background: rgb(65, 65, 65);
 }
-
+#footer img{
+  padding: 0.6rem;
+}
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
@@ -622,6 +652,10 @@ body {
       font-size: 1.6rem;
   }
 
+.menu-items img{
+  width: 30px;
+  height: 30px;
+}
   .testimonial-container {
     flex-direction: column;
     text-align: center;

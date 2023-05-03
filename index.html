@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" 
 />
-    <title>Restraunt</title>
+    <title>🏠 Restraunt</title>
     <link
       rel="stylesheet"
       
@@ -28,9 +28,9 @@ integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+
           <ul class="menu-items">
               <li><a href="#home"><img src="home.svg"></a></li>
               <li><a href="#testimonials"><img src="comment.svg"></a></li>
+              <li><a href="#contact"><img src="email.png"></a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#food-menu">Menu</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#food-menu">Menu</a></li>   
           </ul>
          <h1 class="logo">根選 <span class="rooted-selections">Rooted Selections</span></h1>
       </div>
@@ -173,10 +173,10 @@ alt="" />
           <div class="customer-detail">
             <div class="customer-photo">
               <img
-                src="woman.jpg"
+                src="man2.jpg"
                 alt=""
               />
-              <p class="customer-name">Mary</p>
+              <p class="customer-name">Paul</p>
             </div>
           </div>
           <div class="star-rating">
@@ -194,9 +194,9 @@ alt="" />
         <div class="testimonial-box">
           <div class="customer-detail">
             <div class="customer-photo">
-              <img src="man2.jpg" 
+              <img src="woman.jpg" 
 alt="" />
-              <p class="customer-name">Paul</p>
+              <p class="customer-name">Mary</p>
             </div>
           </div>
           <div class="star-rating">
@@ -234,7 +234,13 @@ alt="" />
       </div>
     </section>
     <footer id="footer">
-      <h2>根選 Rooted Selections &copy; all rights reserved</h2>
+      <div class="address-box"><img src='./addressIcon.png' ><h2>Address: 1, First St., Taipei</h2></div>
+        <div id="social-media"><h3>Find us @</h3>
+          <div class="line-container">
+          <a href="https://line.me/ti/p/yeunghoiming" target="_blank"><img src='./LINE_logo.svg'></a> 
+          </div>
+        </div>
+        </div>
     </footer>
   </body>
   <!-- 
@@ -265,7 +271,7 @@ milliseconds it takes to scroll to the specified area
             800,
             function () {
               // Add hash (#) to URL when done scrolling (default click 
-behavior)
+behavior
               window.location.hash = hash;
             }
           );

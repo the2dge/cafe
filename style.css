@@ -75,8 +75,9 @@ body {
 }
 
 .menu-items {
-  order: 2;
+  order: 1;
   display: flex;
+  margin-left: -1rem;
 }
 
 .menu-items img{
@@ -492,6 +493,7 @@ body {
 .form-container a {
   font-size: 1.3rem;
 }
+
 
 #footer{
   display: flex;

@@ -125,7 +125,7 @@ body {
   text-shadow: none;
   filter: blur(50px);
   opacity: 1;
-  animation: neon-flicker 15s infinite;
+  animation: neon-flicker 1s infinite;
 }
 
 
@@ -515,6 +515,23 @@ body {
 #footer img{
   padding: 0.6rem;
 }
+
+#feedback-form {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  width: 435px;
+  background: gray;
+  padding: 10px;
+  transform: translateX(-50%);
+}
+.feedback-tag{
+  background: lightpink;
+  width:160px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 /* ......../ media query /.......... */
 
 @media (max-width: 768px) {
@@ -699,6 +716,7 @@ body {
     font-weight: 500;
   }
 }
+
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-container h3 {

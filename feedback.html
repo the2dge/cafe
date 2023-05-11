@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+/>
+    <title>Restraunt</title>
+    <link rel="icon" type="image/svg" sizes="512x512" href="favIcon.svg">
+    <link
+      rel="stylesheet"
+      
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="index.html"><img src="home.svg"></a></li>
+              <li><a href="#testimonials"><img src="comment.svg"></a></li>
+              <li><a href="#contact"><img src="email.png"></a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#food-menu">Menu</a></li>   
+          </ul>
+         <h1 class="logo">根選 <span class="rooted-selections">Rooted Selections</span></h1>
+      </div>
+  </nav>
+  
+    <form id="feedback-form">
+        <h1>Feedback Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="rating">Rating (1-5):</label>
+        <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="請給我們一些意見😊" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Please Submit Feedback</button>
+    </form>
+  </body>
+
+</html>

@@ -715,6 +715,22 @@ body {
     font-size: 1.8rem;
     font-weight: 500;
   }
+#feedback-form {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  width: 300px;
+  background: gray;
+  padding: 10px;
+  transform: translateX(-50%);
+}
+.feedback-tag{
+  background: lightpink;
+  width:110px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
 }
 
 
